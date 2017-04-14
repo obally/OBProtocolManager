@@ -15,6 +15,7 @@
 		2BDC86ED1EA05FC6009C1592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDC86EB1EA05FC6009C1592 /* LaunchScreen.storyboard */; };
 		2BDC86F81EA05FC6009C1592 /* OBProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC86F71EA05FC6009C1592 /* OBProtocolManagerTests.m */; };
 		2BDC87031EA05FC6009C1592 /* OBProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87021EA05FC6009C1592 /* OBProtocolManagerUITests.m */; };
+		2BDC87131EA06013009C1592 /* OBProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC87121EA06013009C1592 /* OBProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2BDC86FE1EA05FC6009C1592 /* OBProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDC87021EA05FC6009C1592 /* OBProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBProtocolManagerUITests.m; sourceTree = "<group>"; };
 		2BDC87041EA05FC6009C1592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDC87111EA06013009C1592 /* OBProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBProtocolManager.h; sourceTree = "<group>"; };
+		2BDC87121EA06013009C1592 /* OBProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		2BDC86DC1EA05FC6009C1592 /* OBProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				2BDC87101EA05FE8009C1592 /* OBProtocolManager */,
 				2BDC86E01EA05FC6009C1592 /* AppDelegate.h */,
 				2BDC86E11EA05FC6009C1592 /* AppDelegate.m */,
 				2BDC86E31EA05FC6009C1592 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				2BDC87041EA05FC6009C1592 /* Info.plist */,
 			);
 			path = OBProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		2BDC87101EA05FE8009C1592 /* OBProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				2BDC87111EA06013009C1592 /* OBProtocolManager.h */,
+				2BDC87121EA06013009C1592 /* OBProtocolManager.m */,
+			);
+			path = OBProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDC87131EA06013009C1592 /* OBProtocolManager.m in Sources */,
 				2BDC86E51EA05FC6009C1592 /* ViewController.m in Sources */,
 				2BDC86E21EA05FC6009C1592 /* AppDelegate.m in Sources */,
 				2BDC86DF1EA05FC6009C1592 /* main.m in Sources */,
